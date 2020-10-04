@@ -48,8 +48,8 @@ class CategoryFragment : Fragment(), View.OnClickListener  {
         if (v.id == R.id.btn_detail_category) {
             val mDetailCategoryFragment = DetailCategoryFragment()
             val mBundle = Bundle()
-            mBundle.putString(DetailCategoryFragment.EXTRA_NAME, "Lifestyle")
-            val description = "Kategori ini akan berisi produk-produk lifestyle"
+            mBundle.putString(DetailCategoryFragment.EXTRA_NAME, "Jomblo")
+            val description = "Berbagai macam para jomblo ada disini"
             mDetailCategoryFragment.arguments = mBundle
             mDetailCategoryFragment.description = description
             val mFragmentManager = fragmentManager
